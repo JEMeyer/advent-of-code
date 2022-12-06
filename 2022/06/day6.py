@@ -35,7 +35,7 @@ def find_start_of_message(stream, start_index):
     for i in range(start_index - 1, len(stream)):
         substr = stream[i:i+14]
 
-        # Check if the length of the set of the 4 characters
+        # Check if the length of the set of the 14 characters
         # is equal to the length of the substring. If it is,
         # then the 4 characters are unique
         if len(set(substr)) == len(substr):
