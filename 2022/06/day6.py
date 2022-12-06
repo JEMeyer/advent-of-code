@@ -7,19 +7,6 @@ __author__ = "Joe Meyer"
 __license__ = "MIT"
 
 
-def part_1(lines):
-    fully_contained_pairs = 0
-    for line in lines:
-        split_line = line.split(',')
-        elf_1 = range_to_set(split_line[0])
-        elf_2 = range_to_set(split_line[1])
-
-        if elf_1.issuperset(elf_2) or elf_2.issuperset(elf_1):
-            fully_contained_pairs = fully_contained_pairs + 1
-
-    return fully_contained_pairs
-
-
 def find_start_of_packet(stream):
     for i in range(len(stream)):
         substr = stream[i:i+4]
