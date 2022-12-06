@@ -24,7 +24,7 @@ def find_start_of_message(stream, start_index):
 
         # Check if the length of the set of the 14 characters
         # is equal to the length of the substring. If it is,
-        # then the 4 characters are unique
+        # then the 14 characters are unique
         if len(set(substr)) == len(substr):
             return i + 14
 
