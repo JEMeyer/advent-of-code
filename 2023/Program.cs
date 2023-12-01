@@ -1,6 +1,5 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
+using AdventOfCode;
 
 class Program
 {
@@ -13,7 +12,7 @@ class Program
         }
 
         string className = $"Day{dayNumber}";
-        Type dayType = Assembly.GetExecutingAssembly().GetTypes()
+        Type? dayType = Assembly.GetExecutingAssembly().GetTypes()
             .FirstOrDefault(t => t.Name.Equals(className, StringComparison.OrdinalIgnoreCase));
 
         if (dayType == null)
