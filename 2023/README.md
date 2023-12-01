@@ -1,4 +1,4 @@
-# Advent of Code 2023 Solutions in .NET 7.0
+# Advent of Code 2023 Solutions in .NET 8.0
 
 This project contains my solutions for the [Advent of Code 2023](https://adventofcode.com/2023) challenges, implemented in C# using .NET 7.0. Each day's challenge is encapsulated in its own class, following a consistent interface for ease of execution and maintenance.
 
@@ -12,7 +12,7 @@ This project contains my solutions for the [Advent of Code 2023](https://advento
 
 To run these solutions, you will need:
 
-- [.NET 7.0 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## Running a Solution
 
