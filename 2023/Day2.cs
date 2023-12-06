@@ -31,4 +31,7 @@ public partial class Day2 : IDay
 
     [GeneratedRegex(@"Game (\d+):\s(.+)")]
     private static partial Regex MyRegex();
+
+    [GeneratedRegex(@"(\d+)\s*(red|green|blue)")]
+    private static partial Regex NumColorRegex();
 }
